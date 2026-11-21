@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Navaids - Radio Beacons, Radials and Flight Sim Routes</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #000000;
+            color: #F2F2F2;
+            font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 15px;
+            line-height: 1.6;
+            padding: 48px 20px;
+            min-height: 100vh;
+        }
+        main { max-width: 720px; margin: 0 auto; }
+        header { text-align: center; padding-bottom: 28px; }
+        .icon { width: 112px; height: 112px; border-radius: 25px; border: 1px solid #3D4043; }
+        h1 { font-size: 30px; font-weight: 700; padding-top: 18px; }
+        .tagline { color: #9AA0A6; font-size: 14px; padding-top: 4px; }
+        h2 {
+            color: #9AA0A6; font-size: 13px; font-weight: 600; letter-spacing: 1px;
+            text-transform: uppercase; padding: 28px 0 8px 0;
+            display: flex; align-items: center; gap: 10px;
+        }
+        h2::after { content: ""; flex: 1; height: 1px; background: #3D4043; }
+        p, li { color: #F2F2F2; padding: 4px 0; }
+        ul { list-style: none; }
+        ul li { padding-left: 22px; position: relative; }
+        ul li::before { content: "\2B21"; color: #33CC66; font-size: 12px; position: absolute; left: 2px; top: 6px; }
+        a { color: #33CC66; }
+        .card { background: #111418; border: 1px solid #3D4043; border-radius: 14px; padding: 8px 24px 20px 24px; margin-top: 20px; }
+        .caution { color: #F4B11E; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; font-size: 13px; padding-top: 16px; }
+        .links { text-align: center; padding-top: 32px; font-size: 14px; }
+        .links a { margin: 0 14px; text-decoration: none; }
+        .links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<main>
+
+<header>
+    <img class="icon" src="icon.png" alt="World Navaids app icon, a white hexagonal ring inside a compass arc with a magenta bearing line">
+    <h1>World Navaids</h1>
+    <div class="tagline">VOR, NDB and flight sim routes for iPhone and iPad</div>
+</header>
+
+<div class="card">
+<p>World Navaids is a reference to the radio beacons aircraft navigate by: more than 11,000 VORs, NDBs, DMEs and TACANs in over 230 countries, with the arithmetic a pilot does with them worked out for you. Pick a point, see the beacons around it, the bearing to each and the radial you sit on, then plan a trip from airport to airport and take it into your flight simulator.</p>
+
+<h2>Features</h2>
+<ul>
+    <li>Where Am I, a two-needle dial pointing to the two nearest VORs, with the radial you sit on from each and the bearing to the nearest NDB</li>
+    <li>The nearest beacons with an arrow to each, its true bearing and its distance</li>
+    <li>A map of every beacon, shaped by type, with idents and a compass rose on every VOR as you zoom in</li>
+    <li>Search by ident, name, country, frequency or the airport a beacon serves</li>
+    <li>Each beacon's frequency, position, magnetic variation, power and usage, its ident drawn in Morse, and a map with the line and bearing from your point</li>
+    <li>Routes from 48,000 airports, with Auto Route to suggest a chain of VORs, and true and magnetic course, distance and time for every leg</li>
+    <li>Export to GPX and KML for mapping apps, and to flight plan files for Microsoft Flight Simulator and X-Plane</li>
+    <li>A built-in guide to bearings, headings, radials, magnetic north and Morse idents, with a glossary</li>
+    <li>A widget with the nearest beacon and airport for the Home Screen and the Lock Screen</li>
+    <li>Nautical miles or kilometres, works offline apart from the map's tiles</li>
+    <li>No account and no tracking</li>
+</ul>
+
+<h2>Data Source</h2>
+<p>Beacon and airport data comes from <a href="https://ourairports.com" target="_blank" rel="noopener">OurAirports</a>, released into the public domain. A copy ships with the app, and you can update it whenever you choose. Corrections to the data go to OurAirports, where everyone using it gets them.</p>
+<p>The Microsoft Flight Simulator and X-Plane files are unofficial. World Navaids is not affiliated with Microsoft or with X-Plane&#8217;s makers.</p>
+<p class="caution">Not for navigation</p>
+<p>World Navaids is for aviation enthusiasts and flight simulation. Never use it to fly a real aircraft.</p>
+
+<h2>Support</h2>
+<p>Have a question, a problem, or an idea? Reach us here:</p>
+<ul>
+    <li><a href="https://github.com/FractalDoctor/WorldNavaids/issues/new?labels=question" target="_blank" rel="noopener">Ask a question</a>, help with using World Navaids</li>
+    <li><a href="https://github.com/FractalDoctor/WorldNavaids/issues/new?labels=bug" target="_blank" rel="noopener">Report a bug</a>, something isn&#8217;t working</li>
+    <li><a href="https://github.com/FractalDoctor/WorldNavaids/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a feature</a>, suggest an improvement</li>
+</ul>
+<p>You can also browse <a href="https://github.com/FractalDoctor/WorldNavaids/issues" target="_blank" rel="noopener">existing issues</a> to see whether your question has been answered.</p>
+</div>
+
+<div class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="https://github.com/FractalDoctor/WorldNavaids/issues">Support &amp; Issues</a>
+</div>
+
+</main>
+</body>
+</html>
